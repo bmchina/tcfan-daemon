@@ -1,0 +1,14 @@
+[Unit]
+Description=Temperature Controled Fan
+
+[Service]
+Type=forking
+ExecStart=/bin/bash -c "/etc/start_tcfan.sh &"
+ExecReload=/bin/bash -c "/etc/start_tcfan.sh &"
+RestartSec=5
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target
+
+
