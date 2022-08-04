@@ -1,7 +1,7 @@
 
-Temperature Controled Fan Daemon ver. 0.9.9
+Temperature Controled Fan Daemon  ver. 0.9.9.
 
-
+IMPORTANT -- WiringPI Library is necessary
 
 I:
 
@@ -47,11 +47,11 @@ Note:
 
 	This program work under default settings as below:
 	
-	 ONLY tested on NANOPI Duo2(without PWM output pin)
+	ONLY tested on NANOPI Duo2(without PWM output pin)
 	 
-	 level -- default for high level to control PNP
+	level -- default for high level to control PNP
 	 
-	 temperature -- please specify celsius degree
+	temperature -- please specify celsius degree
 
 Examples:
 
