@@ -1,10 +1,11 @@
 
 Temperature Controled Fan Daemon ver. 0.9.9
 
-===========================================
 
-Service installation:
 
+I:
+
+Service installation ----
 
 cd /tmp
 
@@ -14,11 +15,14 @@ cd tcfan-daemon
 
 sudo ./install.sh
 
-==========================================================
 
-Shell command:
+II:
 
-Usage: ./tcfan_daemon [-gtsRvh] [filename]
+Shell command ----
+
+Usage: 
+
+./tcfan_daemon [-gtsRvh] [filename]
 
 	-g pin		GPIO output pin number(WiringPi format ONLY)
 	
