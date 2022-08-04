@@ -15,6 +15,8 @@ cd tcfan-daemon
 
 sudo ./install.sh
 
+ 
+ 
 
 II:
 
