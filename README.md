@@ -48,6 +48,7 @@ Note:
 	 temperature -- please specify celsius degree
 
 Examples:
+
 	Get help information:
 	    ./tcfan_daemon -h
 
