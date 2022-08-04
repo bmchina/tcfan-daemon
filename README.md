@@ -19,12 +19,19 @@ sudo ./install.sh
 Shell command:
 
 Usage: ./tcfan_daemon [-gtsRvh] [filename]
+
 	-g pin		GPIO output pin number(WiringPi format ONLY)
+	
 	-t numberic	Fan start temperature(1.00-99.99)
+	
 	-s numberic	Fan speed(1-9, 9 means full speed)
+	
 	-A 		Auto adjust fan speed('-s' ignored)
+	
 	-R 		Reverse level voltage(to control PNP MOSFET)
+	
 	-v		Show version informations
+	
 	-h		Show this help
 
 	filename	Linux CPU temperature file
