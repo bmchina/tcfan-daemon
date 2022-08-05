@@ -7,4 +7,5 @@ sudo cp -f ./tcfan.service /lib/systemd/system
 sudo cp -f ./tcfan_daemon /usr/local/sbin
 sudo cp -f ./start_tcfan.sh /etc
 sudo systemctl enable tcfan.service
+sudo systemctl reload-daemon
 sudo systemctl start tcfan.service
