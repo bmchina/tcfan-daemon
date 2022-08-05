@@ -1,7 +1,7 @@
 #!/bin/bash
 
 cpu_tmp_file="/sys/class/thermal/thermal_zone0/temp"
-tc_start=36
+tc_start=38.5
 current=$(cat $cpu_tmp_file)
 
 #sudo kill -9 $(pidof tcfan_daemon)
