@@ -1,6 +1,14 @@
 
 Temperature Controled Fan Daemon  ver. 0.9.9.
 
+A program developed for NanoPI Duo2.
+
+By using this program, 2 wires fan can adjust speed automatically base on temperature of CPU.
+
+In fact it can work well under Raspberry PI, Orange PI, NaonoPI, XX PI ......（ after a few work ^^ )
+
+
+
 IMPORTANT -- WiringPI Library is necessary
 
 I:
@@ -28,7 +36,7 @@ Usage:
 
 	-g pin		GPIO output pin number(WiringPi format ONLY)
 	
-	-t numberic	Fan start temperature(1.00-99.99)
+	-t float	Fan start temperature(1.00-99.99)
 	
 	-s numberic	Fan speed(1-9, 9 means full speed)
 	
