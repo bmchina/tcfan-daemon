@@ -247,7 +247,7 @@ void show_help(char *name){
 	"Usage: %s [-gtsRvh] [filename]\n"
 	"	-g pin		GPIO output pin number(WiringPi format ONLY)\n"
 	"	-t numberic	Fan start temperature(1.00-99.99)\n"
-	"	-s numberic	Fan speed(1-9, 9 means full speed)\n"
+	"	-s float	Fan speed(1-9, 9 means full speed)\n"
 	"	-A 		Auto adjust fan speed('-s' ignored)\n"
 	"	-R 		Reverse level voltage(to control PNP MOSFET)\n"
 	"	-v		Show version informations\n"
